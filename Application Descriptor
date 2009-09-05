@@ -1,0 +1,13 @@
+MIDlet-1: BanglaSMS,/icon.png,org.bd.banglasms.BanglaSMS
+MIDlet-Jar-URL: BanglaSMS.jar
+Nokia-MIDlet-Category: Application
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-Push-1: sms://:6543,org.bd.banglasms.BanglaSMS,*
+MIDlet-Version: 2.0.0
+MIDlet-Vendor: banglasms.org.bd
+MIDlet-Name: BanglaSMS
+MIDlet-Info-URL: http://banglasms.org.bd
+MIDlet-Permissions: javax.microedition.io.PushRegistry,javax.microedition.io.Connector.sms,javax.wireless.messaging.sms.receive,javax.wireless.messaging.sms.send
+MicroEdition-Profile: MIDP-2.0
+SMS-Port: 6543
+Nokia-Update :  
